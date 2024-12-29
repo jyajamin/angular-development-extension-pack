@@ -1,0 +1,49 @@
+{
+  "name": "angular-development-pack",
+  "displayName": "Angular Development",
+  "description": "Visual Studio Code extensions for the development of Angular applications",
+  "icon": "images/angular.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "publisher": "jyajamin",
+  "galleryBanner": {
+    "color": "#0f0f11",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jyajamin/angular-development-extension-pack"
+  },
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "keywords": [
+    "Angular",
+    "TypeScript",
+    "HTML"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "equinusocio.vsc-material-theme",
+    "equinusocio.vsc-material-theme-icons",
+    "esbenp.prettier-vscode",
+    "gruntfuggly.todo-tree",
+    "infinity1207.angular2-switcher",
+    "johnpapa.vscode-peacock",
+    "lokalise.i18n-ally",
+    "mhutchie.git-graph",
+    "pkief.material-icon-theme",
+    "wayou.vscode-todo-highlight",
+    "wix.vscode-import-cost"
+  ]
+}
